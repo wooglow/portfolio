@@ -1,238 +1,132 @@
 * {
-    padding: 0px;    
-    box-sizing: border-box;
-    margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 body {
-    background-color: rgb(107, 90, 90);
+  background-color: #d9dcd6;
 }
 
 header {
-    padding: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: rgb(107, 90, 90);
-    text-align: center;
-    height: 200px;
-    font-size: 50px;
-} 
-
-.jandb {
-    color: rgb(107, 182, 130);
+  padding: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  background-color: #2a607c;
+  color: #ffffff;
 }
 
-nav {
-    height: 100px;
-    padding-top: 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 30px;
-    font-weight: bold;
-    background-color: rgb(107, 182, 130);
+header h1 {
+  display: inline-block;
+  font-size: 48px;
 }
 
-nav ul {
-    text-align: center;
+header h1 .seo {
+  color: #d9dcd6;
 }
 
-nav ul li {
-    list-style-type: none;
-    display: inline-block;
-    
+header nav {
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  list-style-type: none;
 }
 
-section {
-    margin-top: 30px;
-    width: 100%;
-    display: inline-block;
-    
+header nav ul li {
+  display: inline-block;
+  margin-left: 25px;
 }
 
 a {
-  text-decoration: underline;
-  text-decoration-color: rgb(107, 90, 90);
-  text-underline-offset: 0.5em;
-  color: black;    
+  color: #ffffff;
+  text-decoration: none;
 }
 
-
-.avatar {
-    height: 250px;
-    width: 250px;
-    margin-bottom: 25px;
-    float: left;
-    
+figcaption {
+  font-size: 16px;
 }
 
-.about {
-    margin-bottom: 20px;
-    padding: 40px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: rgb(107, 90, 90);     
+figure {
+  height: 800px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image: url('../images/digital-marketing-meeting.jpg');
+  background-size: cover;
+  background-position: center;
 }
 
-body section h2 {
-  text-decoration: underline;
-  text-decoration-color: rgb(107, 182, 130);
-  text-underline-offset: 0.5em;
+.float-left {
+  float: left;
+  margin-right: 25px;
+}
+
+.float-right {
+  float: right;
+  margin-left: 25px;
 }
 
 main {
-    width: 96%;
-    margin: 2rem auto;
-  }
+  width: 75%;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+aside {
+  margin-right: 20px;
+  padding: 20px;
+  clear: both;
+  float: right;
+  width: 20%;
+  height: 100%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #2589bd;
+}
+
+aside section {
+  margin-bottom: 32px;
+  color: #ffffff;
+}
+
+aside h3 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+aside img {
+  display: block;
+  margin: 10px auto;
+  max-width: 150px;
+}
+
+main section {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
+}
+
+main img {
+  max-height: 200px;
+}
 
 main h2 {
-    text-align: center;
-    margin-bottom: 30px;
-    text-decoration: underline rgb(107, 182, 130);
-    text-underline-offset: 0.5em;
-    font-size: 30px;
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+                                                                                                                  
+footer {
+  padding: 30px;
+  clear: both;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  text-align: center;
 }
 
-
-
-section h2 {
-    text-align: center;
-    margin-bottom: 30px;
-    text-decoration: underline rgb(107, 90, 90);
-    text-underline-offset: 0.5em;
-    font-size: 30px;
+footer h4 {
+  font-size: 20px;
 }
-
-section figure {
-    display: block;
-    width: 100%;
-    border-style: solid;
-    border-width: auto;
-    
-    border-color: rgb(107, 90, 90);
-}
-
-section p {
-    font-size: 20px;
-}
-
-
-.work1 {
-    height: 300px;
-    margin-bottom: 25px;
-    background-image: url('../images/digital-marketing-meeting.jpg');
-    background-size: cover;
-    background-position: center;
-    color: white;
-}
-
-.work2 {
-    height: 300px;
-    margin-bottom: 25px;
-    background-image: url('https://images.unsplash.com/photo-1592609931095-54a2168ae893?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8amF2YXNjcmlwdHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
-    background-size: cover;
-    background-position: center;
-    color: white;
-}
-
-.work3 {
-    height: 300px;
-    margin-bottom: 25px;
-    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo1q4fwwAqXSZP78w-SXKRFgo7BiGEu4NQfA&usqp=CAU');
-    background-size: cover;
-    background-position: center;
-    color: white;
-}
-
-.work4 {
-    height: 300px;
-    margin-bottom: 25px;
-    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSM-hi1XnfML8qftt6wyYaJKHiXr0cAlu9NCw&usqp=CAU');
-    background-size: cover;
-    background-position: center;
-    color: black;
-}  
-
-
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    
-  }
-  
-.justify-center {
-    justify-content: center;
-  }
-  
-
-.card-column {
-    flex: 1 0 100%;
-    padding: 1.5rem;
-    background-color: rgb(107, 182, 130);
-    transition: flex-basis 500ms linear;
-    
-  }
-  
-.code-card {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    min-height: 100%;
-    color: black;
-    outline: 2px solid rgb(107, 90, 90);
-    transition: all 0.5s ease-in-out;
-  }
-  
-.code-card .card-header {
-    transition: all 0.5s ease-in-out;
-  }
-  
-.code-card:hover, .code-card:hover .card-header {
-    box-shadow: inset 0px 0px 8px rgb(107, 90, 90), 0 0 15px rgb(107, 90, 90);
-  }
-  
-
-.code-card .code-block {
-    flex-grow: 1;
-  }
-  
-  
-.code-card pre:active {
-    user-select: all;
-  }
-  
-
-@media screen and (min-width: 768px) {
-
-    .card-column {
-      flex: 0 0 25%;
-      max-width: 25%;
-    }
-  
-    
-    .card-column:last-child {
-      flex-grow: 1;
-    }
-  }
-  
-
-@media screen and (min-width: 992px) {
-    header {
-      width: 100%;
-    }
-  
-    .card-column {
-      flex: 0 0 50%;
-      max-width: 50%;
-    }
-  }
-  
-@media screen and (min-width: 1279px) {
-    header {
-      width: 100%;
-    }
-  
-    .card-column {
-      flex: 0 0 100%;
-      max-width: 100%;
-    }
-  }
-  
