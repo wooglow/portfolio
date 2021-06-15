@@ -13,3 +13,5 @@ first application is larget than others:Checked(On Desktop view, it is larger th
 Responsive resizing my page for mobile, tablet, and desktop:Checked
 
 By instructor, "Make it closest to the Mock page":Tried
+
+15th June Check lastly before submisison
