@@ -14,4 +14,14 @@ Responsive resizing my page for mobile, tablet, and desktop:Checked
 
 By instructor, "Make it closest to the Mock page":Tried
 
-15th June Check lastly before submisison
+** 7/6 2021 new version**
+
+- Updated new projects
+  - new images
+  - new links
+  - new flex ratio
+
+- Refresable when you click "Name"
+
+
+6th July Check lastly before submisison
